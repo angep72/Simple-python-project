@@ -1,4 +1,4 @@
-#guessing the dice
+#this is the progrma that allows the user to keep on saying whether they want to continue playing the game or not once it is not it will end saying game over
 import random
 def roll():
     min_value = 1
