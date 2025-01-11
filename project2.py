@@ -9,7 +9,6 @@ def roll():
     answer = result.lower() == "yes"
     count = input("how many times do you want to roll")
     count = int(count)
-    for i in range(0,count):
        
      
    
