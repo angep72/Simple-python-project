@@ -1,3 +1,4 @@
+#guessing the dice
 import random
 def roll():
     min_value = 1
