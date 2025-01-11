@@ -4,4 +4,6 @@ def roll():
     max_value = 6
     roll = random.randint(min_value, max_value)
     return roll
+value = roll()
+print (value)
 
