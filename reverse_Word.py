@@ -12,6 +12,8 @@ b.append("5")
 #---copy methods in python it does the shallow copy of the elements in the list
 a = [1, 2, 3]
 b = a.copy()
-print(b)
 
 #----remove method in python it removes all elements in the list
+c = [1, 2, 3]
+c.clear()
+print (c)
