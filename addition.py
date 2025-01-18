@@ -4,10 +4,10 @@ def additon(a,b):
 def substract (a,b):
     return a - b
 
-first_number = input("please enter the first number") 
-second_number = input("please enter the second number")
+first_number = input("please enter the first number ") 
+second_number = input("please enter the second number ")
 
-operation = input("which operation do you want to perform?")
+operation = input("which operation do you want to perform? ")
 
 
 
