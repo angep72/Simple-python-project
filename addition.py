@@ -13,5 +13,9 @@ if (operation == "addition"):
     result = additon(float(first_number), float(second_number))
     print(f"The result is {result}")
 elif (operation == "substraction"):
+    result = substract(float(first_number), float(second_number))
+    print(f"The result is {result}")
+else:
+    print("Invalid operation. Please choose either addition or subtraction.")
 
 
