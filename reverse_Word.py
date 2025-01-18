@@ -40,4 +40,11 @@ c=[1, 2, 3]
 c.insert(1, 4)
 print(c)
 
-#---index method in python it returns the index of the first occurrence of an element in the list
+
+#---pop method from python it removes an element from the list at specified position
+
+c=[1, 2, 3]
+c.pop(1)
+print(c)
+
+#---reverse method in python it reverses the order of elements in the list
