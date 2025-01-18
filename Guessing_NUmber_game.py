@@ -4,8 +4,9 @@ def guessGame():
     return guessed_number
 
 user_input = input("please Guess the succeess number of this game ")
+user_attempts = input("please tell us how many times you want to guess")
 
 number = guessGame()
-if(number == int(user_input)):
-
+i=0
+while i< int(user_attempts):
     
