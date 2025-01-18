@@ -10,9 +10,16 @@ def read_credentials():
     
 def login_names(name,password):
     credintials = read_credentials()
+    logged_in = False
     for user in credintials:
-        if user[0] == name and user[1] == password:
-            print("Login successful")
+        if user[0] == name and logged_in == False:
+            if user[1] == password:
+                logged_in = True
+    
+    if logged_in == True:
+        return "Login Successful"
+    else:
+        return "Login Failed"
         
     
 print(login_names("caleb","password123"))  
