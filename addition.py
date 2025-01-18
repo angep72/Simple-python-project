@@ -4,5 +4,6 @@ def additon(a,b):
 def substract (a,b):
     return a - b
 
-const first number = input("please enter a number ")
+first number = input("please enter a number ")
+
 
