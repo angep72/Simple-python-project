@@ -21,3 +21,8 @@ print (c)
 #--remove methods in python it removes an element from the list---
 c = [1, 2, 3]
 c.remove(1)
+
+#---count method in python it returns the number of element in list appeared
+c=[1, 2, 3]
+
+print(c.count(2))
