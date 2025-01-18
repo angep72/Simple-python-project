@@ -55,3 +55,13 @@ c = [1, 2, 3]
 c.reverse()
 
 print(c)
+
+#---sort method in pythond 
+
+    # it sorts the elements in the list in ascending order
+c = ["a", "b", "c", "d", "e", "b"]
+
+c.sort()
+c.reverse()
+
+print(c)
