@@ -5,3 +5,8 @@
 
 
 #-----append methods in python it adds the element at the end of the list
+a = [1, 2, 3, 4, 5]
+a.append(5)
+b = ["a", "b", "c", "d", "e", "f", "g", "h"]
+b.append("5")
+
