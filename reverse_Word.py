@@ -13,3 +13,5 @@ b.append("5")
 a = [1, 2, 3]
 b = a.copy()
 print(b)
+
+#----remove method in python it removes all elements in the list
