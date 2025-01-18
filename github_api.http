@@ -1,7 +1,0 @@
-GET https://api.github.com/users/angep72
-###
-
- GET https://api.github.com/users/angep72/repos
-
-
-
