@@ -26,3 +26,12 @@ c.remove(1)
 c=[1, 2, 3]
 
 print(c.count(2))
+
+#---Extend method in python it adds an element to the list from another list
+
+c=[1, 2, 3]
+d=[4, 5, 6]
+c.extend(d)
+print(c)
+
+#---index method in python it returns the index of the first occurrence of the element
