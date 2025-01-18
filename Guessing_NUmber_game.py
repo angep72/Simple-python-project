@@ -9,4 +9,6 @@ user_attempts = input("please tell us how many times you want to guess")
 number = guessGame()
 i=0
 while i< int(user_attempts):
+    if(int(user_input)== number):
+        print ("congratulations you have guessed")
     
