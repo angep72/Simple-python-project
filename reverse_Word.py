@@ -9,4 +9,7 @@ a = [1, 2, 3, 4, 5]
 a.append(5)
 b = ["a", "b", "c", "d", "e", "f", "g", "h"]
 b.append("5")
-
+#---copy methods in python it does the shallow copy of the elements in the list
+a = [1, 2, 3]
+b = a.copy()
+print(b)
