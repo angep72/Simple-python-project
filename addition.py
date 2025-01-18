@@ -9,6 +9,5 @@ second_number = input("please enter the second number")
 
 operation = input("which operation do you want to perform?")
 
-if operation == "add":
 
 
