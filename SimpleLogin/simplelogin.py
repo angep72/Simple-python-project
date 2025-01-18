@@ -22,5 +22,11 @@ def login_names(name,password):
         return "Login Failed"
         
     
-print(login_names("caleb","password123"))  
+def main ():
+    name = input("Enter your name: ")
+    password = input("Enter your password: ")
+    result = login_names(name, password)
+    print(result)  
+    
+main()
     
