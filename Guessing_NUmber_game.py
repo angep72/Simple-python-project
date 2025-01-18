@@ -3,7 +3,7 @@ def guessGame():
     guessed_number = random.randint(0,10)
     return guessed_number
 
-user_attempts = input("-------please tell us how many times you want to guess------------- ")
+user_attempts = input("-------please tell us how many times you want to guess-------------\n ")
 
 number = guessGame()
 i=0
@@ -17,7 +17,7 @@ while i<=int(user_attempts):
     if(i==int(user_attempts)):
         print("Sorry you have reached the maximum number of attempts. Better luck next time! ")
         print("The correct number was :", guessGame())
-    break
+        break
 
     
     
