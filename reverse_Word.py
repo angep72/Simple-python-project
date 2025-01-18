@@ -47,4 +47,11 @@ c=[1, 2, 3]
 c.pop(1)
 print(c)
 
+
+
 #---reverse method in python it reverses the order of elements in the list
+c = [1, 2, 3]
+
+c.reverse()
+
+print(c)
