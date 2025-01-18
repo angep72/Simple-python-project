@@ -34,4 +34,10 @@ d=[4, 5, 6]
 c.extend(d)
 print(c)
 
-#---index method in python it returns the index of the first occurrence of the element
+#---insert method in python it adds an element to the list at specified position
+
+c=[1, 2, 3]
+c.insert(1, 4)
+print(c)
+
+#---index method in python it returns the index of the first occurrence of an element in the list
