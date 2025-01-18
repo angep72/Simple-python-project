@@ -13,7 +13,11 @@ b.append("5")
 a = [1, 2, 3]
 b = a.copy()
 
-#----remove method in python it removes all elements in the list
+#----Clear method in python it removes all elements in the list
 c = [1, 2, 3]
 c.clear()
 print (c)
+
+#--remove methods in python it removes an element from the list---
+c = [1, 2, 3]
+c.remove(1)
