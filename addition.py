@@ -9,5 +9,9 @@ second_number = input("please enter the second number ")
 
 operation = input("which operation do you want to perform? ")
 
+if (operation == "addition"):
+    result = additon(float(first_number), float(second_number))
+    print(f"The result is {result}")
+elif (operation == "substraction"):
 
 
