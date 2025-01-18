@@ -6,6 +6,13 @@ def read_credentials():
             user=line.split(",")
             user[1] = user[1].rstrip()
             new_contents.append(user)          
-        print(new_contents)
-print(read_credentials())  
+        return(new_contents)
+    
+def login_names(name,password):
+    credintials = read_credentials()
+    for user in credintials:
+        print(user)
+        
+    
+print(login_names("ange","ange123"))  
     
