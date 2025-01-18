@@ -11,8 +11,9 @@ def read_credentials():
 def login_names(name,password):
     credintials = read_credentials()
     for user in credintials:
-        print(user)
+        if user[0] == name and user[1] == password:
+            print("Login successful")
         
     
-print(login_names("ange","ange123"))  
+print(login_names("caleb","password123"))  
     
