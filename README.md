@@ -22,7 +22,7 @@ Each section is curated to target specific concepts and frequently used patterns
 
 - Clone or download the repository:
   ```bash
-  git clone https://github.com/your-username/python-100-practice.git
+  git clone https://github.com/angep72/Simple-python-project.git
   ```
 - Choose any section or problem you'd like to solve.
 - You can work through the exercises in any order.
@@ -55,11 +55,6 @@ Each section is curated to target specific concepts and frequently used patterns
 
 ---
 
-## ✅ Progress Checklist (Optional)
-
-You can also use this as a [✅ checklist-style document](link-to-checklist-if-you-want-one) to track your completion.
-
----
 
 ## 🛠 Requirements
 
@@ -83,6 +78,3 @@ This repository is open-source and available under the [MIT License](LICENSE).
 Happy coding! 💻✨  
 *Sharpen your skills one function at a time.*
 
----
-
-Would you like me to also generate a PDF version, a Markdown checklist file, or package these exercises into `.py` files automatically?
