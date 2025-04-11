@@ -1,3 +1,0 @@
-caleb,password123
-ange,ange123
-guy,guy123
