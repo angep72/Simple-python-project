@@ -8,6 +8,6 @@ def countvowels(strings):
         if s in vowels:
             count += 1
 
-    print(f"we have found {count} vowels")
+    return f"we have found {count} vowels"
 
 
