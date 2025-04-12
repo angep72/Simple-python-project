@@ -1,5 +1,5 @@
 #Create a function that returns the longest word in a sentence.
-def longest(text):
+def longest_text(text):
     new_arr = text.split(" ")
     new_array = []
     for num in new_arr:
