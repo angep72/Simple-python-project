@@ -1,29 +1,17 @@
-# #people = [
-#     {"name": "Alice", "age": 30},
-#     {"name": "Bob", "age": 25},
-#     {"name": "Charlie", "age": 30},
-#     {"name": "Diana", "age": 25}
-# ]
+#people = [("Alice", 30), ("Bob", 25), ("Charlie", 30), ("Diana", 25)]
+# people = [ ["Alice","bob","Charlie","Diana"],[30,25,30,25]]
 # grouped = group_by_age(people)
 # print(grouped)
 # {30: ['Alice', 'Charlie'], 25: ['Bob', 'Diana']}
 
 
-def print_person(people):
+def group_by_age(people):
     age_groups = {}
-    for person in people:
-        age = person["age"]
-        name = person["name"]
+    for name, age in people:
         if age not in age_groups:
             age_groups[age] = []
         age_groups[age].append(name)
     return age_groups
-
-people = [
-    {"name": "Alice", "age": 30},
-    {"name": "Bob", "age": 25},
-    {"name": "Charlie", "age": 30},
-    {"name": "Diana", "age": 25}
-]
-grouped = print_person(people)
+people = [("Alice", 30), ("Bob", 25), ("Charlie", 30), ("Diana", 25)]
+grouped = group_by_age(people)
 print(grouped)
