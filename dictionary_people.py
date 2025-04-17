@@ -1,4 +1,9 @@
-# #people = [("Alice", 30), ("Bob", 25), ("Charlie", 30), ("Diana", 25)]
+# #people = [
+#     {"name": "Alice", "age": 30},
+#     {"name": "Bob", "age": 25},
+#     {"name": "Charlie", "age": 30},
+#     {"name": "Diana", "age": 25}
+# ]
 # grouped = group_by_age(people)
 # print(grouped)
 # {30: ['Alice', 'Charlie'], 25: ['Bob', 'Diana']}
