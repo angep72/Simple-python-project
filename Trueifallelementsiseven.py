@@ -6,5 +6,4 @@ def evennumbers (number_list):
         else:
             continue
     return True
-print(evennumbers([2,2,2,4,4,6,8,8,10]))
 
