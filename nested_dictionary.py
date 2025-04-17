@@ -1,3 +1,4 @@
+#
 name = input ("What is your name? ")
 age = input ("How old are you? ")
 Score = input ("how much do you have for you? ")
